@@ -1,107 +1,24 @@
-# Lab 03 – Data Augmentation
+## Lab 02 – Linear Algebra for Machine Learning
 
-##  Overview
+Overview
+This lab explores fundamental Linear Algebra concepts used in Machine Learning. Linear algebra is essential for understanding how data is represented and transformed in ML models.
 
-This lab focuses on **Data Augmentation**, a technique used to increase the size of a dataset by creating modified versions of existing data. This helps improve machine learning model performance, especially when the dataset is small.
+---> Topics Covered
+- Vectors
+- Dot Product
+- Inner Product
+- Matrix Multiplication
+- Eigenvalues and Eigenvectors
+- Singular Value Decomposition (SVD)
 
-We use the **MNIST dataset** and apply transformations like rotation and shear.
+---> Libraries Used
+- NumPy
+- Matplotlib
 
+---> Notebook
+The implementation and experiments are available in:
 
+STP_Linear_algebra.ipynb
 
-##  Objectives
-
-* Understand data augmentation
-* Apply transformations to images
-* Increase dataset size artificially
-* Improve model accuracy
-* Analyze augmentation impact
-
-
-
-##  Key Concepts
-
-###  Data Augmentation
-
-Creating new data from existing data using transformations.
-
-###  Important Rule
-
-Augmentations must preserve labels.
-
-Rotate “3” → still “3”
-Flip “6” → becomes “9”
-
-
-
-##  Techniques Used
-
-### 1. Rotation
-
-* Rotating images by small angles
-* Helps model handle different orientations
-
-### 2. Shear
-
-* Slants the image
-* Adds variation in shape
-
-### 3. Combination
-
-* Rotation + Shear together
-
-
-
-## Results
-
-* Baseline Accuracy: ~64–65%
-* After Augmentation: ~67–68%
-* Improvement: ~3%
-
-
-
-## Observations
-
-* Small transformations improve accuracy
-* Large transformations reduce performance
-* Rotation works better than shear
-* Combining augmentations not always helpful
-
-
-
-## Questions & Answers
-
-### Q1: Best parameters?
-
-Angle ≈ 30°, Shear ≈ 0.8
-
-
-
-### Q2: More augmentation helps?
-
-Yes initially, but too much causes confusion
-
-
-
-### Q3: Other augmentations
-
-* Translation
-* Scaling
-* Noise addition
-
-
-
-### Q4: Combining methods
-
-Rotation alone worked best in this lab
-
-
-
-##  Conclusion
-
-Data augmentation improves model generalization and increases accuracy without collecting new data.
-
-
-
-## Key Takeaway
-
-More meaningful data → Better model performance
+## Learning Outcome
+This lab helps understand how linear algebra forms the mathematical foundation for many machine learning algorithms such as PCA, neural networks, and recommendation systems.
