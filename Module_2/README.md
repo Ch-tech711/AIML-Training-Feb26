@@ -159,6 +159,110 @@ Successfully visualized and interpreted the automobile dataset using multiple pl
 ---
 
 
+# 📘 AIML Module 2 – Lab 2  
+## 📊 Principal Component Analysis (PCA)
+
+---
+
+## 📌 Overview
+This lab focuses on **Principal Component Analysis (PCA)**, a widely used **linear dimensionality reduction** technique. PCA transforms high-dimensional data into a lower-dimensional space while preserving as much variance as possible.
+
+---
+
+## 🎯 Objectives
+- Understand the concept of dimensionality reduction  
+- Learn how PCA works mathematically  
+- Implement PCA manually  
+- Apply PCA using Scikit-learn  
+- Visualize high-dimensional data in lower dimensions  
+
+---
+
+## 🧩 What is PCA?
+PCA (Principal Component Analysis) is a technique that:
+- Reduces the number of features  
+- Preserves maximum variance  
+- Converts correlated variables into uncorrelated principal components  
+
+---
+
+## ⚙️ Algorithm Steps
+1. Standardize the dataset  
+2. Compute covariance matrix  
+3. Calculate eigenvalues and eigenvectors  
+4. Sort eigenvalues in descending order  
+5. Select top k eigenvectors  
+6. Transform data into new feature space  
+
+---
+
+## 🧪 Experiments
+
+### 1. Data Standardization
+- Center the data (mean = 0)  
+- Scale features if required  
+
+### 2. Covariance Matrix
+- Measures relationship between features  
+
+### 3. Eigenvalues & Eigenvectors
+- Eigenvectors → directions of maximum variance  
+- Eigenvalues → magnitude of variance  
+
+### 4. Dimensionality Reduction
+- Select top components  
+- Project data onto new axes  
+
+### 5. Visualization
+- Plot reduced data in 2D or 3D  
+
+---
+
+## 📊 Observations
+- PCA reduces dimensionality effectively  
+- Helps remove redundancy in data  
+- Works well for linear datasets  
+- May not perform well for non-linear data  
+
+---
+
+## 🛠️ Technologies Used
+- Python  
+- NumPy  
+- Matplotlib  
+- Scikit-learn  
+
+---
+
+## 📁 Files
+- AIML_Module_2_Lab2_Principal_Components_Analysis_(PCA).ipynb  
+- README.md  
+
+---
+
+## 🚀 How to Run
+1. Install dependencies:
+   pip install numpy matplotlib scikit-learn  
+
+2. Open Jupyter Notebook:
+   jupyter notebook  
+
+3. Run all cells  
+
+---
+
+## 📚 Learning Outcomes
+- Understanding PCA concepts  
+- Ability to reduce dimensions of data  
+- Knowledge of eigenvalues and eigenvectors  
+- Practical implementation using Python  
+
+---
+
+## ✍️ Conclusion
+PCA is a powerful and efficient technique for reducing dimensionality in datasets. It simplifies data while retaining important information, making it useful for visualization, noise reduction, and preprocessing in machine learning.
+
+
 # 📘 AIML Module 2 – Lab 3  
 ## 🧠 Manifold Learning using Isomap
 
