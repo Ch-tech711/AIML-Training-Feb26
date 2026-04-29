@@ -157,3 +157,100 @@ These visual tools make it easier to analyze and interpret complex datasets.
 Successfully visualized and interpreted the automobile dataset using multiple plotting techniques.
 
 ---
+
+
+# 📘 AIML Module 2 – Lab 3  
+## 🧠 Manifold Learning using Isomap
+
+---
+
+## 📌 Overview
+This lab focuses on **Manifold Learning**, a non-linear dimensionality reduction technique. We implement and understand the **Isomap algorithm**, which preserves the intrinsic geometry of data lying on a curved manifold.
+
+---
+
+## 🎯 Objectives
+- Understand manifolds in machine learning  
+- Learn how Isomap works  
+- Implement Isomap manually  
+- Use Scikit-learn’s Isomap  
+- Apply on synthetic and real datasets  
+
+---
+
+## 🧩 What is Isomap?
+Isomap (Isometric Mapping) is a non-linear dimensionality reduction technique that preserves **geodesic distances** instead of Euclidean distances.
+
+---
+
+## ⚙️ Algorithm Steps
+1. Build neighborhood graph using k-nearest neighbors  
+2. Compute geodesic distances using shortest path algorithm  
+3. Apply eigen decomposition for dimensionality reduction  
+
+---
+
+## 🧪 Experiments
+
+### 1. Synthetic Dataset (S-Curve)
+- Generated using `make_s_curve()`  
+- Goal: Reduce 3D data into 2D while preserving structure  
+
+### 2. Manual Implementation
+- Distance matrix computation  
+- Graph construction  
+- Shortest path calculation  
+- Eigen decomposition  
+
+### 3. Scikit-learn Isomap
+- Efficient built-in implementation  
+- Easy to apply on datasets  
+
+### 4. Face Dataset
+- High-dimensional image data  
+- Compared Isomap with PCA  
+- Isomap preserves structure better  
+
+---
+
+## 📊 Observations
+- Isomap works well for non-linear data  
+- Preserves global structure  
+- Performs better than PCA for curved datasets  
+
+---
+
+## 🛠️ Technologies Used
+- Python  
+- NumPy  
+- Matplotlib  
+- Scikit-learn  
+
+---
+
+## 📁 Files
+- AIML_Module_2_Lab_3_Manifold_Learning_Methods.ipynb  
+- README.md  
+
+---
+
+## 🚀 How to Run
+1. Install dependencies:
+   pip install numpy matplotlib scikit-learn  
+
+2. Open Jupyter Notebook:
+   jupyter notebook  
+
+3. Run all cells  
+
+---
+
+## 📚 Learning Outcomes
+- Understanding of manifold learning  
+- Difference between linear and non-linear methods  
+- Hands-on with Isomap implementation  
+
+---
+
+## ✍️ Conclusion
+Isomap is an effective method for dimensionality reduction when dealing with non-linear data structures, making it useful in visualization and real-world machine learning tasks.
